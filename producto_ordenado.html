@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+
+  <link rel="stylesheet" href="style.css">
+
+  <body>
+
+    <h1>Formulario CRUD</h1>
+
+    <form action="" onClick="evitarRecarga(event)">
+
+      <label for="name">Id:</label>
+      <input type="text" id="id" name="id" value="" />
+
+      <br /><br />
+
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" value="" required/>
+
+      <br /><br />
+
+      <label for="price">Precio:</label>
+      <input type="text" id="price" name="price" value="" required />
+
+      <br /><br />
+
+      <label for="desc">Descripcion:</label>
+      <input type="text" id="desc" name="desc" value="" required/>
+
+      <br /><br />
+
+      <input class="btn" type="submit" value="Crear" onclick="alta();" />
+      <input class="btn" type="submit" value="Buscar" onclick="buscar();" />
+      <input class="btn" type="submit" value="Actualizar" onclick="actualizar();" />
+      <input class="btn" type="submit" value="Borrar" onclick="baja();" />
+      <input class="btn"type="submit" value="Ver Todos" onclick="getList();" />
+    </form>
+
+    <section id="lista">
+
+
+
+    </section>
+ 
+
+    <script src="backend.js"></script>
+  </body>
+</html>
+
+
+
+    </section>
+ 
+
+    <script src="backend_ordenado.js"></script>
+  </body>
+</html>

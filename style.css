@@ -1,0 +1,46 @@
+
+body{
+   
+   text-align: center;
+  
+}
+
+
+label{
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+input{
+    border: solid salmon;
+    
+}
+.btn{
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#lista{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+li{
+    display: flex;
+    min-width: 250px;
+    list-style:none;
+    width: 25%;
+    height: 100px;
+    margin:0.5rem;
+    border:solid black;
+}
